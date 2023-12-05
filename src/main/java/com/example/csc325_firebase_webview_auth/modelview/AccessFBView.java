@@ -156,7 +156,7 @@ public class AccessFBView {
             return true;
 
         } catch (FirebaseAuthException ex) {
-           // Logger.getLogger(FirestoreContext.class.getName()).log(Level.SEVERE, null, ex);
+           //Logger.getLogger(FirestoreContext.class.getName()).log(Level.SEVERE, null, ex);
             return false;
         }
 
